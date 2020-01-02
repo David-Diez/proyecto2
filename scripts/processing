@@ -1,0 +1,11 @@
+function setup() {
+	 createCanvas(1300, 400);
+	 frameRate(60);
+	}
+
+function draw() {
+	 background(220);
+	 noStroke();
+	 ellipse(mouseX,mouseY,mouseX,mouseY);
+	 fill(mouseX,mouseY,0);
+	}

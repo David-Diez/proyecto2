@@ -1,0 +1,27 @@
+td.importante {
+	background-color: rgb(225,225,225);
+}
+td.hora {
+	background-color: rgb(225,225,255);
+}
+td.dia {
+	background-color: rgb(225,225,225);
+}
+td.lunes {
+	background-color: rgb(150,150,255);
+}
+td.martes {
+	background-color: rgb(125,125,255);
+}
+td.miercoles {
+	background-color: rgb(100,100,255);
+}
+td.jueves {
+	background-color: rgb(75,75,255);
+}
+td.viernes {
+	background-color: rgb(50,50,255);
+}
+td {
+	text-align: center;
+}

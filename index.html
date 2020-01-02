@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="styles/estilotabla.css">
+		<link rel="stylesheet" type="text/css" href="styles/estiloreloj.css">
+	
+		
+
+		<script src="scripts/reloj.js"></script> 
+		<script src="scripts/p5.js"></script>
+		<script>
+		function setup() {
+		  createCanvas(1300, 400);
+		  frameRate(60);
+		}
+
+		function draw() {
+		  background(220);
+		  noStroke();
+		  ellipse(mouseX,mouseY,mouseX,mouseY);
+		  fill(mouseX,mouseY,0);
+		 }
+		</script>
+		
+
+
+	</head>
+	<body onload=hora() onload=rotarImagenes()>
+		
+
+		<div id="contenedor_reloj">	
+			<h1 id="contenedor_titulo"></h1>
+			<button id="contenedor_hora" onclick="hora()">Actualizar hora</button>
+			<br>
+			<button id="fechames" onclick="fecha()">Ver fecha completa</button>
+			
+		</div>
+	
+		<table border="1">
+			<tr>
+					<td class="importante" id="hora0"><strong>HORA</strong></td>
+					<td class="dia" id="lunes0"><strong>Lunes</strong></td>
+					<td class="dia" id="martes0"><strong>Martes</strong></td>
+					<td class="dia" id="miercoles0"><strong>Miércoles</strong></td>
+					<td class="dia" id="jueves0"><strong>Jueves</strong></td>
+					<td class="dia" id="viernes0"><strong>Viernes</strong></td>
+					
+			<tr>
+					<td class="hora" id="hora1"><strong>1º</strong></td>
+					<td class="lunes" id="lunes1"><p class="TIC">TIC</p></td>
+					<td class="martes" id="martes1"><p class="Mates">TecInd</p></td>
+					<td class="miercoles" id="miercoles1"><p class="Mates">TecInd</p></td>
+					<td class="jueves" id="jueves1"><p class="Mates">TecInd</p></td>
+					<td class="viernes" id="viernes1"><p class="Mates">TecInd</p></td>
+					
+			<tr>
+					<td class="hora" id="hora2"><strong>2º</strong></td>
+					<td class="lunes" id="lunes2"><p class="Ingles">Inglés</p></td>
+					<td class="martes" id="martes2"><p class="Historia">Historia</p></td>
+					<td class="miercoles" id="miercoles2"><p class="Historia">Historia</p></td>
+					<td class="jueves" id="jueves2"><p class="Dibujo">Dibujo</p></td>
+					<td class="viernes" id="viernes2"><p class="TIC">TIC</p></td>
+					
+			<tr>
+					<td class="hora" id="hora3"><strong>3º</strong></td>
+					<td class="lunes" id="lunes3"><p class="Fisica">Física</p></td>
+					<td class="martes" id="martes3"><p class="Lengua">Lengua</p></td>
+					<td class="miercoles" id="miercoles3"><p class="Dibujo">Dibujo</p></td>
+					<td class="jueves" id="jueves3"><p class="TIC">TIC</p></td>
+					<td class="viernes" id="viernes3"><p class="Fisica">Física</p></td>
+					
+			<tr>
+					<td class="hora" id="hora4"><strong>4º</strong></td>
+					<td class="lunes" id="lunes4"><p class="Historia">Historia</p></td>
+					<td class="martes" id="martes4"><p class="Ingles">Inglés</p></td>
+					<td class="miercoles" id="miercoles4"><p class="Lengua">Lengua</p></td>
+					<td class="jueves" id="jueves4"><p class="Lengua">Lengua</p></td>
+					<td class="viernes" id="viernes4"><p class="Lengua">Lengua</p></td>
+					
+			<tr>
+					<td class="hora" id="hora5"><strong>5º</strong></td>
+					<td class="lunes" id="lunes5"><p class="Dibujo">Dibujo</p></td>
+					<td class="martes" id="martes5"><p class="Dibujo">Dibujo</p></td>
+					<td class="miercoles" id="miercoles5"><p class="Fisica">Física</p></td>
+					<td class="jueves" id="jueves5"><p class="Historia">Historia</p></td>
+					<td class="viernes" id="viernes5"><p class="Mates">Mates</p></td>
+					
+			<tr>
+					<td class="hora" id="hora6"><strong>6º</strong></td>
+					<td class="lunes" id="lunes6"><p class="Mates">Mates</p></td>
+					<td class="martes" id="martes6"><p class="Mates">Mates</p></td>
+					<td class="miercoles" id="miercoles6"><p class="Mates">Mates</p></td>
+					<td class="jueves" id="jueves6"> <p class="Fisica">Física</p></td>
+					<td class="viernes" id="viernes6"><p class="Ingles">Inglés</p></td>
+				
+			</table>
+			
+			<br>
+			
+			
+			<div id="c_efba4a484e3ea1fe7a85391daf8fb935" class="completo"></div>
+			<script type="text/javascript" src="https://www.eltiempo.es/widget/widget_loader/efba4a484e3ea1fe7a85391daf8fb935"></script>
+			
+		
+			
+		
+			
+	</body>
+	
+</html>
